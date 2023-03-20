@@ -6,7 +6,8 @@ RUN dnf install -y \
       make \
       less \
       make \
-      nodejs-1:18.12.1-1.amzn2023.0.3 \
+      nodejs \
+      npm \
       && \
     dnf clean all && \
     rm -rf /var/cache/dnf
